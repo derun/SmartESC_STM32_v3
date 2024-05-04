@@ -49,7 +49,7 @@
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 15
 #define SPEEDLIMIT_NORMAL 25
-#define SPEEDLIMIT_SPORT 35
+#define SPEEDLIMIT_SPORT 45
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
@@ -60,7 +60,7 @@
 #define REGEN_CURRENT 20000
 
 // maximum current for flux weakening in mA
-#define FW_CURRENT_MAX 18000 //max id
+#define FW_CURRENT_MAX 800 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
