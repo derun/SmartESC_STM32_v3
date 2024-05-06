@@ -28,7 +28,7 @@
 
 // calibration factors for voltage and current
 #define CAL_BAT_V 15 	// ADC counts * CAL_BAT_V = Battery voltage in mV
-#define CAL_I 38		// ADC counts * CAL_I = current in mA
+#define CAL_I 54		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
 #define P_FACTOR_I_Q 100
@@ -40,7 +40,7 @@
 #define THROTTLEOFFSET 45
 #define THROTTLEMAX 175
 #define BRAKEOFFSET 50
-#define BRAKEMAX 180
+#define BRAKEMAX 190
 
 // parameters for speed calculation
 #define WHEEL_CIRCUMFERENCE 550 //690 for original M365 motor
