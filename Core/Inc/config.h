@@ -68,7 +68,7 @@
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 30000
-#define BATTERYVOLTAGE_MAX 100000
+#define BATTERYVOLTAGE_MAX 63000
 
 
 // motor spinning direction
