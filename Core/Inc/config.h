@@ -27,7 +27,7 @@
 #define DISPLAY_TYPE DISPLAY_TYPE_M365DASHBOARD
 
 // calibration factors for voltage and current
-#define CAL_BAT_V 18 	// ADC counts * CAL_BAT_V = Battery voltage in mV
+#define CAL_BAT_V 22 	// ADC counts * CAL_BAT_V = Battery voltage in mV
 #define CAL_I 38		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
