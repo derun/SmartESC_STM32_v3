@@ -54,13 +54,13 @@
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
 #define PH_CURRENT_MAX_NORMAL 28000
-#define PH_CURRENT_MAX_SPORT 55000
+#define PH_CURRENT_MAX_SPORT 35000
 
 // motor current limit for regen in mA
 #define REGEN_CURRENT 20000
 
 // maximum current for flux weakening in mA
-#define FW_CURRENT_MAX 1800 //max id
+#define FW_CURRENT_MAX 0 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
@@ -75,7 +75,7 @@
 #define REVERSE 1 //1 for original M365 motor
 
 // settings for speed PLL (angle estimation)
-#define SPEED_PLL 1 //1 for using PLL, 0 for angle extrapolation
+#define SPEED_PLL 0 //1 for using PLL, 0 for angle extrapolation
 #define P_FACTOR_PLL 10 //7 for original M365 motor
 #define I_FACTOR_PLL 10 //7 for original M365 motor
 
