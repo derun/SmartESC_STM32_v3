@@ -27,7 +27,7 @@
 #define DISPLAY_TYPE DISPLAY_TYPE_M365DASHBOARD
 
 // calibration factors for voltage and current
-#define CAL_BAT_V 24 	// ADC counts * CAL_BAT_V = Battery voltage in mV
+#define CAL_BAT_V 25 	// ADC counts * CAL_BAT_V = Battery voltage in mV
 #define CAL_I 38		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
@@ -43,12 +43,12 @@
 #define BRAKEMAX 190
 
 // parameters for speed calculation
-#define WHEEL_CIRCUMFERENCE 550 //690 for original M365 motor
-#define GEAR_RATIO 11 //15 for original M365 motor
+#define WHEEL_CIRCUMFERENCE 800 //690 for original M365 motor
+#define GEAR_RATIO 22 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 6
-#define SPEEDLIMIT_NORMAL 20
+#define SPEEDLIMIT_NORMAL 25
 #define SPEEDLIMIT_SPORT 50
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
@@ -57,14 +57,14 @@
 #define PH_CURRENT_MAX_SPORT 35000
 
 // motor current limit for regen in mA
-#define REGEN_CURRENT 20000
+#define REGEN_CURRENT 25000
 
 // maximum current for flux weakening in mA
 #define FW_CURRENT_MAX 0 //max id
 
 // maximum battery currents in mA
-#define BATTERYCURRENT_MAX 14500
-#define REGEN_CURRENT_MAX 10000
+#define BATTERYCURRENT_MAX 60000
+#define REGEN_CURRENT_MAX 27000
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 30000
