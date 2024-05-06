@@ -27,7 +27,7 @@
 #define DISPLAY_TYPE DISPLAY_TYPE_M365DASHBOARD
 
 // calibration factors for voltage and current
-#define CAL_BAT_V 15 	// ADC counts * CAL_BAT_V = Battery voltage in mV
+#define CAL_BAT_V 17 	// ADC counts * CAL_BAT_V = Battery voltage in mV
 #define CAL_I 38		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
@@ -67,7 +67,7 @@
 #define REGEN_CURRENT_MAX 10000
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 10000
+#define BATTERYVOLTAGE_MIN 30000
 #define BATTERYVOLTAGE_MAX 100000
 
 
