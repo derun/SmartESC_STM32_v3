@@ -14,8 +14,8 @@
 #define DISPLAY_TYPE_DEBUG (1<<0)							// For ASCII-Output in Debug mode);
 
 #define TRIGGER_OFFSET_ADC 65
-#define TRIGGER_DEFAULT 2020
-#define _T 2028
+#define TRIGGER_DEFAULT 1460
+#define _T 1468
 
 #define SPEEDFILTER 3
 
@@ -27,8 +27,8 @@
 #define DISPLAY_TYPE DISPLAY_TYPE_M365DASHBOARD
 
 // calibration factors for voltage and current
-#define CAL_BAT_V 6 	// ADC counts * CAL_BAT_V = Battery voltage in mV
-#define CAL_I 54		// ADC counts * CAL_I = current in mA
+#define CAL_BAT_V 14 	// ADC counts * CAL_BAT_V = Battery voltage in mV
+#define CAL_I 38		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
 #define P_FACTOR_I_Q 100
