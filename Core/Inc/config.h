@@ -60,7 +60,7 @@
 #define REGEN_CURRENT 25000
 
 // maximum current for flux weakening in mA
-#define FW_CURRENT_MAX 0 //max id
+#define FW_CURRENT_MAX 5000 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 60000
