@@ -13,9 +13,9 @@
 #define DISPLAY_TYPE_M365DASHBOARD (1<<1)
 #define DISPLAY_TYPE_DEBUG (1<<0)							// For ASCII-Output in Debug mode);
 
-#define TRIGGER_OFFSET_ADC 65
-#define TRIGGER_DEFAULT 1460
-#define _T 1468
+#define TRIGGER_OFFSET_ADC 50
+#define TRIGGER_DEFAULT 2020
+#define _T 2028
 
 #define SPEEDFILTER 3
 
@@ -27,7 +27,7 @@
 #define DISPLAY_TYPE DISPLAY_TYPE_M365DASHBOARD
 
 // calibration factors for voltage and current
-#define CAL_BAT_V 14 	// ADC counts * CAL_BAT_V = Battery voltage in mV
+#define CAL_BAT_V 15 	// ADC counts * CAL_BAT_V = Battery voltage in mV
 #define CAL_I 38		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
@@ -47,28 +47,28 @@
 #define GEAR_RATIO 11 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 15
-#define SPEEDLIMIT_NORMAL 25
-#define SPEEDLIMIT_SPORT 55
+#define SPEEDLIMIT_ECO 6
+#define SPEEDLIMIT_NORMAL 20
+#define SPEEDLIMIT_SPORT 50
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
-#define PH_CURRENT_MAX_NORMAL 25000
-#define PH_CURRENT_MAX_SPORT 40000
+#define PH_CURRENT_MAX_NORMAL 28000
+#define PH_CURRENT_MAX_SPORT 55000
 
 // motor current limit for regen in mA
-#define REGEN_CURRENT 25000
+#define REGEN_CURRENT 20000
 
 // maximum current for flux weakening in mA
 #define FW_CURRENT_MAX 1800 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
-#define REGEN_CURRENT_MAX 12000
+#define REGEN_CURRENT_MAX 10000
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 39000
-#define BATTERYVOLTAGE_MAX 85000
+#define BATTERYVOLTAGE_MIN 10000
+#define BATTERYVOLTAGE_MAX 100000
 
 
 // motor spinning direction
