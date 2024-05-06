@@ -13,7 +13,7 @@
 #define DISPLAY_TYPE_M365DASHBOARD (1<<1)
 #define DISPLAY_TYPE_DEBUG (1<<0)							// For ASCII-Output in Debug mode);
 
-#define TRIGGER_OFFSET_ADC 50
+#define TRIGGER_OFFSET_ADC 65
 #define TRIGGER_DEFAULT 2020
 #define _T 2028
 
@@ -43,32 +43,32 @@
 #define BRAKEMAX 180
 
 // parameters for speed calculation
-#define WHEEL_CIRCUMFERENCE 690 //690 for original M365 motor
-#define GEAR_RATIO 15 //15 for original M365 motor
+#define WHEEL_CIRCUMFERENCE 550 //690 for original M365 motor
+#define GEAR_RATIO 11 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 15
 #define SPEEDLIMIT_NORMAL 25
-#define SPEEDLIMIT_SPORT 35
+#define SPEEDLIMIT_SPORT 55
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
-#define PH_CURRENT_MAX_NORMAL 20000
-#define PH_CURRENT_MAX_SPORT 35000
+#define PH_CURRENT_MAX_NORMAL 25000
+#define PH_CURRENT_MAX_SPORT 40000
 
 // motor current limit for regen in mA
-#define REGEN_CURRENT 20000
+#define REGEN_CURRENT 25000
 
 // maximum current for flux weakening in mA
 #define FW_CURRENT_MAX 1800 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
-#define REGEN_CURRENT_MAX 10000
+#define REGEN_CURRENT_MAX 12000
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 33000
-#define BATTERYVOLTAGE_MAX 42000
+#define BATTERYVOLTAGE_MIN 39000
+#define BATTERYVOLTAGE_MAX 63000
 
 
 // motor spinning direction
