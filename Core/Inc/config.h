@@ -28,7 +28,7 @@
 
 // calibration factors for voltage and current
 #define CAL_BAT_V 25 	// ADC counts * CAL_BAT_V = Battery voltage in mV
-#define CAL_I 38		// ADC counts * CAL_I = current in mA
+#define CAL_I 40		// ADC counts * CAL_I = current in mA
 
 // gains for PI controls
 #define P_FACTOR_I_Q 100
@@ -54,7 +54,7 @@
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
 #define PH_CURRENT_MAX_NORMAL 28000
-#define PH_CURRENT_MAX_SPORT 35000
+#define PH_CURRENT_MAX_SPORT 40000
 
 // motor current limit for regen in mA
 #define REGEN_CURRENT 25000
@@ -75,7 +75,7 @@
 #define REVERSE 1 //1 for original M365 motor
 
 // settings for speed PLL (angle estimation)
-#define SPEED_PLL 0 //1 for using PLL, 0 for angle extrapolation
+#define SPEED_PLL 1 //1 for using PLL, 0 for angle extrapolation
 #define P_FACTOR_PLL 10 //7 for original M365 motor
 #define I_FACTOR_PLL 10 //7 for original M365 motor
 
